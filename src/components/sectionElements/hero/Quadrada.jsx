@@ -25,7 +25,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
     >
       <div className="relative z-10 flex w-full items-left">
         <div className="w-full  justify-evenly">
-          <div className="h-[100px] phone2:h-[110px] phone3:h-[100px] desktop3:h-[120px] " />{" "}
+          <div className="h-[130px] phone2:h-[130px] phone3:h-[130px] desktop3:h-[120px] " />{" "}
           <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               {/* MiniTag preta */}
