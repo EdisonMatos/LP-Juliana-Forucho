@@ -44,7 +44,7 @@ export default function Index() {
       <AboutInstagram
         colorMode={colorMode}
         instagram={true}
-        socialPrint={true}
+        socialPrint={false}
       />
       {/* <Cta colorMode={colorMode} /> */}
       <CtaSecondary />

@@ -24,13 +24,13 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
       id="home"
     >
       <div className="relative z-10 flex w-full items-left">
-        <div className="w-full text-secondary justify-evenly">
-          <div className="h-[100px] phone2:h-[110px] phone3:h-[100px] desktop3:h-[120px] " />{" "}
-          <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px]  desktop1:pt-[68px] desktop1:pb-[96px]">
+        <div className="w-full  justify-evenly">
+          <div className="h-[130px] phone2:h-[130px] phone3:h-[130px] desktop3:h-[120px] " />{" "}
+          <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               {/* MiniTag preta */}
               <MotionDivDownToUp>
-                <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4 text-labelButtons">
+                <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-minititleDarkLabel text-paragraph4">
                   <p className="mb-[16px] bg-minititle text-paragraph2 rounded-md px-[16px] py-[6px] inline-block">
                     {content.texts.hero.miniTag}
                   </p>
