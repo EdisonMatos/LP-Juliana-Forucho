@@ -7,7 +7,7 @@ function LogoFooter() {
     <MotionDivDownToUp>
       <div className="h-[115px] flex justify-start items-center">
         <img
-          src={content.texts.navbar.logo.img}
+          src={content.texts.footer.logoFooter}
           alt={content.texts.navbar.logo.alt}
           className="max-h-[88px] w-auto "
         ></img>

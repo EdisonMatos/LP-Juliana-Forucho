@@ -1,4 +1,5 @@
 import logo from "../assets/imgs/logo/logo.webp";
+import logofooter from "../assets/imgs/logo/logoFooter.webp";
 import heroImgPhone from "../assets/imgs/hero/personImg.png";
 import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.jpg";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.jpg";
@@ -569,6 +570,7 @@ const content = {
         "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
       footerSocialText: "Siga a gente nas redes sociais:",
       footerNavegacaoText: "NAVEGAÇÃO",
+      logoFooter: logofooter,
     },
     testimonials: {
       miniTag: "A_Definir",
