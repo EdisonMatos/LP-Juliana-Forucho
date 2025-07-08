@@ -127,7 +127,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADA EM CAMPO GRANDE - MS",
+      miniTag: "",
       title: (
         <h1 className="mb-[16px]">
           Quem nega saúde,
@@ -476,7 +476,7 @@ const content = {
       title: (
         <h1>
           <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
-          conosco para podermos lhe ajudar,{" "}
+          conosco para que possamos ajudar,
           <span className="text-bgSectionDark">estamos te esperando.</span>
         </h1>
       ),
