@@ -404,10 +404,10 @@ const content = {
       title: "Minha trajetória",
       subtitle:
         "Transformando indignação em justiça pela saúde de quem mais precisa",
-      labelInstagram: "Siga-me no Instagram",
-      labelFacebook: "Siga-me no Facebook",
-      labelLinkedin: "Siga-me no LinkedIn",
-      labelX: "Siga-me no X",
+      labelInstagram: "Siga-nos no Instagram",
+      labelFacebook: "Siga-nos no Facebook",
+      labelLinkedin: "Siga-nos no LinkedIn",
+      labelX: "Siga-nos no X",
       paragraph: (
         <div>
           O escritório da Dra. Juliana Furucho nasceu da indignação diante das
@@ -455,10 +455,10 @@ const content = {
         subtitle:
           "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
         paragraph: <p></p>,
-        labelInstagram: "Siga-me no Instagram",
-        labelFacebook: "Siga-me no Facebook",
-        labelLinkedin: "Siga-me no LinkedIn",
-        labelX: "Siga-me no X",
+        labelInstagram: "Siga-nos no Instagram",
+        labelFacebook: "Siga-nos no Facebook",
+        labelLinkedin: "Siga-nos no LinkedIn",
+        labelX: "Siga-nos no X",
       },
     },
     cta: {
@@ -525,14 +525,15 @@ const content = {
     },
     blog: {
       miniTag: "BLOG",
-      title: "A_Definir",
-      subtitle: "",
+      title: "Informação jurídica ao seu alcance",
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
-        "https://public-api.wordpress.com/rest/v1.1/sites/blogtestepaper.wordpress.com/posts/",
+        "https://public-api.wordpress.com/rest/v1.1/sites/jfuruchoadvocacia1.wordpress.com/posts/",
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "https://blogtestepaper.wordpress.com/",
+      blogLink: "https://jfuruchoadvocacia1.wordpress.com/",
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
