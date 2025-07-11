@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { Sidebar } from "primereact/sidebar";
-import { Button } from "primereact/button";
 import { Ripple } from "primereact/ripple";
 import { FileText } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
+import Button from "../interactives/Button";
+import { Button as PrimeButton } from "primereact/button";
 
 import "primeicons/primeicons.css";
 import {
@@ -94,7 +96,7 @@ export default function SidebarSocial({ colorMode }) {
                     />
                   </span>
                   <span>
-                    <Button
+                    <PrimeButton
                       type="button"
                       ref={closeIconRef}
                       onClick={(e) => hide(e)}
@@ -106,7 +108,7 @@ export default function SidebarSocial({ colorMode }) {
                           ? "text-primary"
                           : "h-2rem w-2rem p-[5px] text-white"
                       }`}
-                    ></Button>
+                    />
                   </span>
                 </div>
                 <div className="h-screen overflow-y-auto">
@@ -222,6 +224,14 @@ export default function SidebarSocial({ colorMode }) {
                           </ul>
                         </ul>
                       )}
+                      <Button
+                        aria-label={content.texts.hero.ctaButtonAriaLabel}
+                        label={content.texts.navbar.ctaButtonTextResponsive}
+                        size="small"
+                        icon={<FaWhatsapp />}
+                        colorMode={colorMode}
+                        className="mt-4 ml-4"
+                      />
                     </li>
 
                     {/* Início Botões sociais */}
