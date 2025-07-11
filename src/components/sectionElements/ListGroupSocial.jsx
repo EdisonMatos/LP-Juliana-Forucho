@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
 import { useNavigate } from "react-router-dom";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function ListGroupSocial({ colorMode = "default" }) {
   const navigate = useNavigate();
