@@ -136,8 +136,9 @@ const content = {
       miniTag: "",
       title: (
         <h1 className="mb-[16px]">
-          Quem nega saúde,
-          <span className="text-primary"> nega dignidade</span>
+          Quando negam
+          <span className="text-primary"> terapia</span>, negam{" "}
+          <span className="text-primary"> desenvolvimento</span>
         </h1>
       ),
       subtitle:
@@ -147,7 +148,7 @@ const content = {
       heroImg: bgHeroImg, //fundo da Hero
       heroDefaultImage: heroDefaultImg, //imagem da heroDefault Mobile
       backgroundPerson: backgroundPersonMobile,
-      ctaButtonText: "Quero lutar pelos meus direitos",
+      ctaButtonText: "Quero garantir as terapias",
       obsHero: {
         icon: (
           <svg
@@ -194,15 +195,15 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADE",
-      title: "Atuação especializada em Direito à Saúde",
+      title: "Especialista em Direito da Pessoa com Autismo",
       subtitle:
-        "Garantimos seus direitos em saúde, inclusão e acesso a tratamentos.",
+        "Atuação jurídica para assegurar tratamento, educação e dignidade.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito à Saúde",
-        subtitle: "Acesso garantido a tratamentos pelo SUS e planos.",
+        title: "Direitos da Pessoa com Autismo",
+        subtitle: "Inclusão e terapias garantidas por lei.",
         description: (
           <div>
             A_Definir
@@ -223,13 +224,9 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-stethoscope-icon lucide-stethoscope"
+            class="lucide lucide-puzzle-icon lucide-puzzle"
           >
-            <path d="M11 2v2" />
-            <path d="M5 2v2" />
-            <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" />
-            <path d="M8 15a6 6 0 0 0 12 0v-3" />
-            <circle cx="20" cy="10" r="2" />
+            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -237,8 +234,8 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Fornecimento de Medicamentos",
-        subtitle: "Obtenção de remédios de alto custo na Justiça.",
+        title: "Tratamentos e Terapias Essenciais",
+        subtitle: "Planos de saúde cobrindo todas as terapias.",
         description: (
           <div>
             A_Definir
@@ -259,11 +256,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-pill-bottle-icon lucide-pill-bottle"
+            class="lucide lucide-heart-pulse-icon lucide-heart-pulse"
           >
-            <path d="M18 11h-4a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h4" />
-            <path d="M6 7v13a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7" />
-            <rect width="16" height="5" x="4" y="2" rx="1" />
+            <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
+            <path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -271,8 +267,8 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direitos da Pessoa com Autismo",
-        subtitle: "Defesa por inclusão, terapias e benefícios legais.",
+        title: "Benefícios e Direitos Legais",
+        subtitle: "Auxílio para obter seus benefícios com rapidez.",
         description: (
           <div>
             A_Definir <br />
@@ -292,9 +288,13 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-puzzle-icon lucide-puzzle"
+            class="lucide lucide-scale-icon lucide-scale"
           >
-            <path d="M15.39 4.39a1 1 0 0 0 1.68-.474 2.5 2.5 0 1 1 3.014 3.015 1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474 2.5 2.5 0 1 0-3.014 3.015 1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474 2.5 2.5 0 1 1-3.014-3.015 1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474 2.5 2.5 0 1 0 3.014-3.015 1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z" />
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
@@ -302,8 +302,8 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Doenças Raras e Condições Especiais",
-        subtitle: "Atuação por tratamentos e suporte especializado.",
+        title: "Educação e Inclusão Escolar",
+        subtitle: "Inclusão escolar com apoio garantido.",
         description: (
           <div>
             A_Definir
@@ -324,19 +324,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-dna-icon lucide-dna"
+            class="lucide lucide-graduation-cap-icon lucide-graduation-cap"
           >
-            <path d="m10 16 1.5 1.5" />
-            <path d="m14 8-1.5-1.5" />
-            <path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993" />
-            <path d="m16.5 10.5 1 1" />
-            <path d="m17 6-2.891-2.891" />
-            <path d="M2 15c6.667-6 13.333 0 20-6" />
-            <path d="m20 9 .891.891" />
-            <path d="M3.109 14.109 4 15" />
-            <path d="m6.5 12.5 1 1" />
-            <path d="m7 18 2.891 2.891" />
-            <path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993" />
+            <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+            <path d="M22 10v6" />
+            <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
