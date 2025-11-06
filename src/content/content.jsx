@@ -401,7 +401,7 @@ const content = {
       miniTag: "QUEM É A DRA. JULIANA FURUCHO",
       title: "Minha trajetória",
       subtitle:
-        "Transformando indignação em justiça pela saúde de quem mais precisa",
+        "Transformando indignação em justiça pela saúde de pessoas autistas",
       labelInstagram: "Siga-nos no Instagram",
       labelFacebook: "Siga-nos no Facebook",
       labelLinkedin: "Siga-nos no LinkedIn",
@@ -410,31 +410,24 @@ const content = {
         <div>
           O escritório da Dra. Juliana Furucho nasceu da indignação diante das
           negativas injustas de planos de saúde e da omissão do SUS. A cada
-          paciente desamparado, crescia o desejo de transformar a dor em ação.
-          Assim começou uma trajetória marcada pela defesa firme do direito à
-          saúde.
+          pessoa autista sem acesso a terapias, crescia o desejo de transformar
+          a dor em ação. Assim começou uma trajetória marcada pela defesa firme
+          do direito à saúde e à inclusão.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          O escritório da Dra. Juliana Furucho nasceu da indignação diante das
-          negativas injustas de planos de saúde e da omissão do SUS. A cada
-          paciente desamparado, crescia o desejo de transformar a dor em ação.
-          Assim começou uma trajetória marcada pela defesa firme do direito à
-          saúde.
+         O escritório da Dra. Juliana Furucho nasceu da indignação diante das negativas injustas de planos de saúde e da omissão do SUS. A cada pessoa autista sem acesso a terapias, crescia o desejo de transformar a dor em ação. Assim começou uma trajetória marcada pela defesa firme do direito à saúde e à inclusão.
+
           <br />
           <br />
-          Desde então, centenas de pessoas tiveram acesso a medicamentos,
-          terapias e tratamentos antes negados. Casos envolvendo autismo,
-          doenças raras e condições graves passaram a ser tratados com urgência,
-          estratégia e acolhimento humano.
+          Desde então, inúmeras famílias conseguiram garantir terapias, tratamentos e direitos antes negados. Casos de negativa de cobertura, atrasos no SUS e falta de apoio escolar passaram a ser tratados com estratégia, sensibilidade e urgência.
+
           <br />
           <br />
-          Aqui, cada história é única e tratada com escuta ativa, empatia e
-          dedicação total. Lutamos por resultados concretos, com agilidade e
-          sensibilidade, porque acreditamos que saúde é direito — e justiça, uma
-          missão diária.
+         Aqui, cada história é única e acolhida com escuta ativa, empatia e dedicação total. Lutamos por resultados concretos e ágeis, porque acreditamos que saúde e desenvolvimento são direitos — e justiça, nossa missão diária.
+
           <br />
           <br />
         </p>
