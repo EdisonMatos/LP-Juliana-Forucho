@@ -142,7 +142,7 @@ const content = {
         </h1>
       ),
       subtitle:
-        "Planos recusam, o SUS demora… e quem precisa, sofre. Seu direito à saúde não pode esperar.",
+        "Planos recusam, SUS demora, INSS corta o beneficio...e as famílias sofrem. O direito do seu filho não pode esperar!",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
